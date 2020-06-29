@@ -3,9 +3,9 @@ qstat.py is a simple program for calculating the integrated intensity and the av
 
 To calculate integrated intensity, define `a` with the lines of the file that represent qmin and qmax:
 ```
-qstat.py -a 4 700
+qstat.py -i 4 700
 ```
 Similarly, to calculate average intensity across a region of q, define `b` with the lines of the file that represent qmin and qmax:
 ```
-qstat.py -b 25 30 
+qstat.py -a 25 30 
 ```
