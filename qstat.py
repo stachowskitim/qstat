@@ -19,7 +19,7 @@ CLI = argparse.ArgumentParser(prog='qstat', usage='%(prog)s [options]',
                               ' More information available at github.com/stachowskitim')
 
 CLI.add_argument(
-    '-a',
+    '-i',
     '--qintrange',
     nargs="+",
     type=float,
@@ -27,7 +27,7 @@ CLI.add_argument(
 )
 
 CLI.add_argument(
-    '-b',
+    '-a',
     '--iqavg',
     nargs="+",
     type=float,
